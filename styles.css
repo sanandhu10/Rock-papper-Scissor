@@ -1,0 +1,47 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:5px solid ;
+    height: 44vw;
+    width:610px;
+    margin:10px auto;
+    
+}
+.container{
+    width:600px;
+    
+    
+}
+h1{
+    text-align: center;
+    margin-top:20px;
+}
+.player{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top:50px
+}
+.rock{
+    margin-left:190px;
+}
+.ai{
+    text-align: center;
+    margin-top: 50px;
+}
+.scores{
+    position:absolute;
+    bottom: 60px;
+    display:flex;
+    
+}
+.player-score{
+    font-size: 1.2em;
+
+}
+.ai-score{
+   font-size:1.2em;
+   margin-left: 320px;
+   min-width: 100px;
+}
+hr{
+    border:3px solid;
+}
